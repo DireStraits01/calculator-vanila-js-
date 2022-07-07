@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.calc {
+       margin:50px auto;
+       background: #100c08;
+       width: 300px;
+       height: 500px;
+       justify-content: center;
+       align-items: center;
+       display: block;
+       border-radius: 20px;
+       padding: 18px;
+       
+       
+            
+    }
+/* .screen{
+      
+    background-color:#100c08;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    
+} */
+.screen p{
+    text-align: right;
+    font-size: 4rem;
+    overflow-x:hidden;
+    color: #fff;
+    line-height: 5rem;
+ 
+    
+
+  
+    
+}
+.btn{
+    color:#fff;
+    text-align: center;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background: #383838;
+    line-height: 60px;
+    font-size: 1.5em;
+    margin: 5px;
+    cursor: pointer;
+    
+}
+.btn.zero{
+    grid-area:zero;
+    width: 95%;
+    border-radius: 34px;
+}
+.buttons{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-areas: 
+    "ac procent dot division"
+    "seven eight nine multi"
+    "four five six minus"
+    "one two three plus"
+    "zero zero zero ravno "
+   
+  
+}
+.orange{
+    background:#FFA500
+}
+.gc{
+   background: #dedee0;
+   color:black;
+}
