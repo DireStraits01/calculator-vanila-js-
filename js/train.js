@@ -24,7 +24,7 @@ document.querySelector('.buttons').addEventListener('click', function(event){
            l('a:',a)
        }
        else if (a != '' && b != '' && finish){
-           b=key;
+           b+=key;
            finish = false
            l('b:',b)
            out.textContent = b
